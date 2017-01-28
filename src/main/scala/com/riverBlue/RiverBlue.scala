@@ -14,7 +14,8 @@ object RiverBlue extends JFrame{
 
     add(new Board)
 
-    pack
+    setSize(400, 300)
+    setResizable(false)
 
     setTitle("River Blue")
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
